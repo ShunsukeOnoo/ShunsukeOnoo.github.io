@@ -25,18 +25,18 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
-    <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
-    <!-- Abbreviation/Venue -->
-    {%- if entry.abbr -%}
-      {%- if site.data.venues[entry.abbr] -%}
-        {% assign venue_style = null %}
-        {% if site.data.venues[entry.abbr].color != blank %}
-          {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
-        {%- endif -%}
-        <div class="abbr">
+    <!-- Title with Abbreviation/Venue -->
+    <div style="display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.5rem;">
+      <div class="title" style="flex: 1;">{{ entry.title }}</div>
+      {%- if entry.abbr -%}
+        {%- if site.data.venues[entry.abbr] -%}
+          {% assign venue_style = null %}
+          {% if site.data.venues[entry.abbr].color != blank %}
+            {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
+          {%- endif -%}
           <abbr
             class="badge rounded"
+            style="white-space: nowrap; align-self: center;"
             {% if venue_style %}
               {{ venue_style }}
             {% endif -%}
@@ -47,13 +47,11 @@
               <div>{{- entry.abbr -}}</div>
             {% endif %}
           </abbr>
-        </div>
-      {% else %}
-        <div class="abbr">
-          <abbr class="badge rounded">{{ entry.abbr }}</abbr>
-        </div>
+        {% else %}
+          <abbr class="badge rounded" style="white-space: nowrap; align-self: center;">{{ entry.abbr }}</abbr>
+        {% endif %}
       {% endif %}
-    {% endif %}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}

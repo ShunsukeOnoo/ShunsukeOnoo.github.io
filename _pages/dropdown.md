@@ -1,10 +1,7 @@
 ---
 layout: page
 title: menu
-nav: true
-nav_order: 8
-dropdown: true
-children:
+nav: false
   - title: blog
     permalink: /blog/
   - title: publications
