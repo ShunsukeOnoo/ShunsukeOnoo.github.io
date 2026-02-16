@@ -11,14 +11,15 @@ layout: default
         {{ site.title }}
       {% endif %}
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
     
     <!-- Social icons directly below name -->
     {% if page.social %}
-      <div class="social" style="margin-top: 1rem;">
-        <div class="contact-icons">{% social_links %}</div>
+      <div class="social" style="margin-top: 0.5rem; margin-bottom: 0.5rem; text-align: left;">
+        <div class="contact-icons" style="font-size: 1.2rem;">{% social_links %}</div>
       </div>
     {% endif %}
+    
+    <p class="desc">{{ page.subtitle }}</p>
   </header>
 
   <article>
