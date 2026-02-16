@@ -6,6 +6,8 @@ subtitle: >
   Master's Student.
   <a href='https://kamitani-lab.ist.i.kyoto-u.ac.jp/'>Kamitani Lab</a>.
   Kyoto University.
+  <br>
+  <a href='/assets/pdf/cv.pdf'>CV</a>
 
 profile:
   align: right

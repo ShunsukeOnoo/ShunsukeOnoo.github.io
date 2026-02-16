@@ -12,6 +12,13 @@ layout: default
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
+    
+    <!-- Social icons directly below name -->
+    {% if page.social %}
+      <div class="social" style="margin-top: 1rem;">
+        <div class="contact-icons">{% social_links %}</div>
+      </div>
+    {% endif %}
   </header>
 
   <article>
@@ -64,13 +71,9 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
+    <!-- Contact note (if any) -->
+    {% if site.contact_note %}
+      <div class="contact-note">{{ site.contact_note }}</div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
