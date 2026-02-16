@@ -30,18 +30,18 @@ latest_posts:
 
 Neuroscience, Artificial intelligence, Philosophy of mind, Philosophy of free will
 
-*Why and how are we intelligent, in some sense?* This question is the main driving force
+_Why and how are we intelligent, in some sense?_ This question is the main driving force
 behind my research, and I aim to address them through empirical investigation. The
 followings are a bit more short-term and specific questions:
 
-- *How do biological and artificial neural networks acquire representations suitable for
-  performing diverse tasks?*
-- *How and under what conditions do cooperation and communication among agents emerge?*
+- _How do biological and artificial neural networks acquire representations suitable for
+  performing diverse tasks?_
+- _How and under what conditions do cooperation and communication among agents emerge?_
   The current trend in AI is to tackle every problem with a single large model. In nature,
   however, there are many examples of multiple small agents working together to produce
   complex behavior. Honey bees, for instance, can communicate the locations of threats and
   resources with only about a million neurons. Can artificial agents do something similar?
-- *How does knowledge arise?* Modern artificial intelligence relies heavily on human
+- _How does knowledge arise?_ Modern artificial intelligence relies heavily on human
   knowledge—through training data in supervised learning, through handcrafted and intricate
   loss functions in unsupervised and reinforcement learning, and through manually designed
   architectures in general. Could artificial intelligence instead start literally from
@@ -49,7 +49,7 @@ followings are a bit more short-term and specific questions:
   its own through simple training schemes such as evolutionary algorithms?
 
 I am also drawn to brain–machine interfaces and related fields, largely inspired by
-cyberpunk culture. Cyberpunk classics such as *Ghost in the Shell* (Shirow-Masamune, 1989)
+cyberpunk culture. Cyberpunk classics such as _Ghost in the Shell_ (Shirow-Masamune, 1989)
 made me realize how constrained we are as human beings, both cognitively and physically.
 Our memory and computational ability are limited; there are illnesses, injuries, and
 physical conditions we cannot cure; we only have a single body. These constraints are so
