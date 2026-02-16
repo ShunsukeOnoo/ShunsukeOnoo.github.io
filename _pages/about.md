@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
   Master's Student.
@@ -11,10 +11,7 @@ profile:
   align: right
   image: ""
   image_circular: false
-  more_info: >
-    <p>Graduate School of Informatics</p>
-    <p>Kyoto University</p>
-    <p>Kyoto, Japan</p>
+  more_info:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

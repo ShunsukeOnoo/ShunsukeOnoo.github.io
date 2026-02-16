@@ -1,6 +1,7 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+cv_pdf: /assets/pdf/cv.pdf
 email: shunsuke.ono.00@gmail.com
 github_username: ShunsukeOnoo
 x_username: onoo999 # Twitter/X username without @
