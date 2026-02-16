@@ -116,6 +116,8 @@
 }
 
 .navbar-toggler {
+  display: none !important; /* Hide hamburger menu completely */
+  
   .icon-bar {
     display: block;
     width: 22px;
