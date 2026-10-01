@@ -7,7 +7,7 @@ published: false
 nav_order: 5
 cv_pdf: /assets/pdf/cv.pdf
 cv_format: rendercv # options: rendercv, jsonresume
-description: Curriculum Vitae of Shunsuke Onoo, Master's student at Kyoto University.
+description: Curriculum Vitae of Shunsuke Onoo, PhD student at Kyoto University.
 toc:
   sidebar: left
 ---

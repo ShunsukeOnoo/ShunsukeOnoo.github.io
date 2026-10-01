@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  Master's Student.
+  PhD Student.
   <a href='https://kamitani-lab.ist.i.kyoto-u.ac.jp/'>Kamitani Lab</a>.
   Kyoto University.
 
